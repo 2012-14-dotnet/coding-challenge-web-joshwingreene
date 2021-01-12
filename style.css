@@ -22,4 +22,19 @@
 
 li {
     list-style: none;
+    display: inline;
+    margin: 5px;
+}
+
+ul {
+    flex-direction: row;
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.center {
+    align-items: center;
 }
